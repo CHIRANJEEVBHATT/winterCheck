@@ -19,3 +19,9 @@ MERGE 2 SORTED ARRAY
 we are given two sorted arrays where the first array has enough extra space at the end to store all elements of the second array instead of using an extra array we merge both arrays directly into the first one we start comparing elements from the end of both arrays  pointer is placed at the last valid element of the first array another at the last element of the second array, and a third pointer at the very end of the first array.
 
 At each step we compare values from both arrays and place the larger one at the last position of the first array then we move the pointer accordingly this process continues until all elements from the second array are inserted
+
+NEXT PERMUTATION 
+Next Permutation rearranges a sequence into the next lexicographically greater order it works by finding the first position from the right where the sequence starts decreasing then replacing that element with the next larger element on its right and finally reversing the remaining right part to make it the smallest possible if no such position exists the sequence is already the highest permutation and is reversed to become the lowest permutation
+
+question is leet code 31
+tc-O(n)

@@ -14,3 +14,8 @@ we divide the array into three regions called low, mid, and high. We start by as
 
 question is leet code 75 sort colors
 time complexity O(n)
+
+MERGE 2 SORTED ARRAY 
+we are given two sorted arrays where the first array has enough extra space at the end to store all elements of the second array instead of using an extra array we merge both arrays directly into the first one we start comparing elements from the end of both arrays  pointer is placed at the last valid element of the first array another at the last element of the second array, and a third pointer at the very end of the first array.
+
+At each step we compare values from both arrays and place the larger one at the last position of the first array then we move the pointer accordingly this process continues until all elements from the second array are inserted
